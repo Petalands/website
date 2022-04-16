@@ -32,13 +32,13 @@
         </div>
         <div class="grid justify-center self-center xl:w-9/12">
           <a href="/">
-            <img src="../../assets/logo.png" width="64"/>
+            <img src="../../assets/logo.png" width="80"/>
           </a>
         </div>
         <!-- <div class="relative xs:hidden xl:grid text-center">
           <span class="color-white"> dashboard </span>
         </div> -->
-        <div
+        <!-- <div
           class="relative xs:hidden xl:grid text-center mt-2"
           :class="{ activeMenu: $route.path === '/token' }"
         >
@@ -51,12 +51,9 @@
             </span>
           </router-link>
           <div class="flex justify-center">
-            <!-- <div
-              :class="{ activeBottom: $route.path === '/my-collection' }"
-            ></div> -->
           </div>
-        </div>
-        <div
+        </div> -->
+        <!-- <div
           class="relative xs:hidden xl:grid text-center mt-2"
           :class="{ activeMenu: $route.path === '/my-collection' }"
         >
@@ -70,11 +67,8 @@
             </span>
           </router-link>
           <div class="flex justify-center">
-            <!-- <div
-              :class="{ activeBottom: $route.path === '/my-collection' }"
-            ></div> -->
           </div>
-        </div>
+        </div> -->
       </div>
       <div
         class="
@@ -165,7 +159,7 @@
                   class="quantico text-uppercase"
                   style="color: #c6fc0e; z-index: 1; font-size: 14px"
                 >
-                  Connect wallet
+                  Coming Soon
                 </a>
                 <a
                   v-if="walletAccount"
@@ -173,7 +167,8 @@
                   href="#"
                   style="color: #c6fc0e; z-index: 1; font-size: 16px"
                 >
-                  {{ shortAddress }}
+                  <!-- {{ shortAddress }} -->
+                  Coming Soon
                 </a>
               </div>
             </div>
@@ -310,7 +305,7 @@ import modalVerify from "@/components/Modal/ModalVerify";
 // import Sidebar from "@/components/Sidebar/SidebarProfile";
 import axios from "axios";
 import modalRefer from "@/components/Modal/ModalReferalLink";
-import Web3 from "web3";
+// import Web3 from "web3";
 //import "../../../public/css/theme.css";
 
 export default {
@@ -370,34 +365,34 @@ export default {
     };
   },
   async mounted() {
-    var that = this;
-    if (window.ethereum != undefined) {
-      window.web3 = new Web3(window.ethereum);
-      window.ethereum.on("accountsChanged", function () {
-        that.connectWallet();
-        that.walletAccount = window.ethereum.selectedAddress;
-        that.$emit("connected", window.ethereum.selectedAddress);
-      });
+    // var that = this;
+    // if (window.ethereum != undefined) {
+    //   window.web3 = new Web3(window.ethereum);
+    //   window.ethereum.on("accountsChanged", function () {
+    //     that.connectWallet();
+    //     that.walletAccount = window.ethereum.selectedAddress;
+    //     that.$emit("connected", window.ethereum.selectedAddress);
+    //   });
 
-      window.ethereum.on("chainChanged", () => {
-        that.connectWallet();
-        that.walletAccount = window.ethereum.selectedAddress;
-        that.$emit("connected", window.ethereum.selectedAddress);
-      });
+    //   window.ethereum.on("chainChanged", () => {
+    //     that.connectWallet();
+    //     that.walletAccount = window.ethereum.selectedAddress;
+    //     that.$emit("connected", window.ethereum.selectedAddress);
+    //   });
 
-      window.ethereum.on("disconnect", () => {
-        that.walletAccount = "";
-        that.$emit("disconnected", window.ethereum.selectedAddress);
-      });
+    //   window.ethereum.on("disconnect", () => {
+    //     that.walletAccount = "";
+    //     that.$emit("disconnected", window.ethereum.selectedAddress);
+    //   });
 
-      window.ethereum.on("connected", () => {
-        that.$emit("connected", window.ethereum.selectedAddress);
-      });
+    //   window.ethereum.on("connected", () => {
+    //     that.$emit("connected", window.ethereum.selectedAddress);
+    //   });
 
-      if (window.ethereum.selectedAddress != "") {
-        that.connectWallet();
-      }
-    }
+    //   if (window.ethereum.selectedAddress != "") {
+    //     that.connectWallet();
+    //   }
+    // }
   },
   methods: {
     async verifyFunc() {

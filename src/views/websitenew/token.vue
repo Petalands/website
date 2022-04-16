@@ -73,10 +73,6 @@
                   <span class="uppercase title-header-section" style="margin-left: auto;">
                     {{ milkBalance }}
                   </span>
-                  <img
-                    src="../../assets/milk-drink.png"
-                    style="cursor: pointer; width: 48px; margin-right: auto;"
-                  />
                 </div>
               </div>
             </div>

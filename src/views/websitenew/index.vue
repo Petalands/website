@@ -3,27 +3,102 @@
     <div class="main-container">
       <full-page :options="options" id="fullpage" ref="fullpage">
         <div class="section">
-          <kinesis-container event="move">
+          <div class="section-one">
+            <div class="grid grid-cols-1 justify-between">
+              <img
+                class="section-img desktop"
+                alt="logo"
+                src="../../assets/petaland.png"
+              />
+              <img
+                class="section-img-mb mobile"
+                alt="logo"
+                src="../../assets/petaland.png"
+              />
+            </div>
+          </div>
+          <!-- <kinesis-container event="move">
             <section class="cover cover-features imagebg height-100 text-start">
               <div class="background-image-holder">
                 <img alt="background" src="../../assets/petaland.png" />
               </div>
-              <!-- <kinesis-element :strength="30" type="translate" axis="y">
-                <img
-                  class="desktop home-nft"
-                  alt="background"
-                  src="../../assets/webv3/banner/Cover.png"
-                  width="750"
-                />
-              </kinesis-element> -->
             </section>
-          </kinesis-container>
+          </kinesis-container> -->
         </div>
         <div class="section">
-          <h1>Section 2</h1>
+          <div class="section-two"></div>
         </div>
         <div class="section">
-          <h1>Section 3</h1>
+          <div class="section-three">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="row">
+                <div class="col-6">
+                  <img
+                    alt="gameplay1"
+                    src="../../assets/landing-page/gameplay1.png"
+                    style="max-height: 456px; margin: auto"
+                  />
+                </div>
+                <div class="col-6"></div>
+              </div>
+              <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6">
+                  <img
+                    alt="gameplay2"
+                    src="../../assets/landing-page/gameplay2.png"
+                    style="max-height: 456px; margin: auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-three">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="row">
+                <div class="col-6">
+                  <img
+                    alt="gameplay1"
+                    src="../../assets/landing-page/equipment.png"
+                    style="max-height: 456px; margin: auto"
+                  />
+                </div>
+                <div class="col-6"></div>
+              </div>
+              <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6">
+                  <img
+                    alt="gameplay2"
+                    src="../../assets/landing-page/pvp.png"
+                    style="max-height: 456px; margin: auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-four">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                                    <img
+                    alt="nft"
+                    src="../../assets/landing-page/nfts.png"
+                    style="max-height: 969px; margin-left: auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-five"></div>
         </div>
       </full-page>
     </div>
@@ -236,6 +311,10 @@ export default {
   font-family: "Quantico" !important;
 }
 
+.imposter {
+  font-family: "Imposter" !important;
+}
+
 .bg--purple [data-overlay]:before {
   background: #410b53 !important;
 }
@@ -364,11 +443,69 @@ footer {
   display: flex;
 }
 
+.section-one {
+  background-image: url("../../assets/landing-page/bgbanner.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+}
+
+.section-two {
+  background-image: url("../../assets/landing-page/bg2.png");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  /* position: absolute; */
+  opacity: 0.4;
+  height: 100%;
+}
+
+.section-three {
+  background-color: #fff;
+  /* position: absolute; */
+  height: 100%;
+}
+
+.section-four {
+  background-image: url("../../assets/landing-page/bg3.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  /* position: absolute; */
+  opacity: 1;
+  height: 100%;
+}
+
+.section-five {
+  background-image: url("../../assets/landing-page/bg4.png");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  /* position: absolute; */
+  opacity: 0.4;
+  height: 100%;
+}
+
 .home-nft {
   position: absolute;
   right: 3%;
   z-index: 5;
   margin-top: 50px;
+}
+
+.section-img {
+  max-height: 968px;
+  margin: auto;
+}
+
+.section-img-mb {
+  max-height: 968px;
+  margin: auto;
+  margin-top: 50%;
 }
 
 .p-galleria-thumbnail-items-container {
@@ -381,7 +518,7 @@ footer {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .desktop {
     display: none;
   }

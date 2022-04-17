@@ -25,30 +25,145 @@
             </section>
           </kinesis-container> -->
         </div>
-        <div class="section">
+        <div class="section" style="position: relative">
           <div class="section-two"></div>
-        </div>
-        <div class="section">
-          <div class="section-three">
+          <div class="content">
             <div class="grid grid-cols-1 justify-between">
-              <div class="row">
-                <div class="col-6">
-                  <img
-                    alt="gameplay1"
-                    src="../../assets/landing-page/gameplay1.png"
-                    style="max-height: 456px; margin: auto"
-                  />
+              <div class="container text-uppercase">
+                <div class="row" style="margin-top: 5%">
+                  <h1
+                    class="
+                      imposter
+                      xs:text-sm
+                      md:text-sm
+                      lg:text-lg
+                      xl:text-3xl
+                      2xl:text-3xl
+                      text-white
+                    "
+                  >
+                    game concept
+                  </h1>
                 </div>
-                <div class="col-6"></div>
-              </div>
-              <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6">
-                  <img
-                    alt="gameplay2"
-                    src="../../assets/landing-page/gameplay2.png"
-                    style="max-height: 456px; margin: auto"
-                  />
+                <div class="row" style="margin-top: 20%">
+                  <div class="col-2">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/play.png"
+                      style="max-height: 64px; margin: auto"
+                    />
+                  </div>
+                  <div class="col-2">
+                    <h1
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-3xl
+                        2xl:text-3xl
+                        text-white
+                      "
+                    >
+                      PLAY
+                    </h1>
+                  </div>
+                  <div class="col-8">
+                    <span
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-2xl
+                        2xl:text-2xl
+                        text-white
+                      "
+                    >
+                      To play a real game and find a new community for cultural
+                      exchange in the metaverse.
+                    </span>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-2">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/craft.png"
+                      style="max-height: 64px; margin: auto"
+                    />
+                  </div>
+                  <div class="col-2">
+                    <h1
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-3xl
+                        2xl:text-3xl
+                        text-white
+                      "
+                    >
+                      CRAFT
+                    </h1>
+                  </div>
+                  <div class="col-8">
+                    <span
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-2xl
+                        2xl:text-2xl
+                        text-white
+                      "
+                    >
+                      The use of in-game materials to create exclusive items
+                      that need users know-how & creativity.
+                    </span>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-2">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/earn.png"
+                      style="max-height: 64px; margin: auto"
+                    />
+                  </div>
+                  <div class="col-2">
+                    <h1
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-3xl
+                        2xl:text-3xl
+                        text-white
+                      "
+                    >
+                      EARN
+                    </h1>
+                  </div>
+                  <div class="col-8">
+                    <span
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-2xl
+                        2xl:text-2xl
+                        text-white
+                      "
+                    >
+                      Users will be able to earn by selling crafted items,
+                      farming, trading and etc.
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -57,41 +172,174 @@
         <div class="section">
           <div class="section-three">
             <div class="grid grid-cols-1 justify-between">
-              <div class="row">
-                <div class="col-6">
-                  <img
-                    alt="gameplay1"
-                    src="../../assets/landing-page/equipment.png"
-                    style="max-height: 456px; margin: auto"
-                  />
+              <div class="container text-uppercase">
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/gameplay1.png"
+                      style="max-height: 456px; margin: auto; padding: 20px"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <div style="padding: 20%">
+                      <span
+                        class="
+                          imposter
+                          xs:text-sm
+                          md:text-sm
+                          lg:text-lg
+                          xl:text-xl
+                          2xl:text-xl
+                        "
+                      >
+                        Use your NFTs Tools to gather the resources such as
+                        stones, woods, fibers and ores for crafting other tools
+                        and equipments.
+                      </span>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-6"></div>
-              </div>
-              <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6">
-                  <img
-                    alt="gameplay2"
-                    src="../../assets/landing-page/pvp.png"
-                    style="max-height: 456px; margin: auto"
-                  />
+                <div class="row">
+                  <div class="col-6">
+                    <div style="padding: 20%">
+                      <span
+                        class="
+                          imposter
+                          xs:text-sm
+                          md:text-sm
+                          lg:text-lg
+                          xl:text-xl
+                          2xl:text-xl
+                        "
+                      >
+                        In Petaland, there are millions of resources for
+                        players. However, there are a ton of monsters in farming
+                        as well and the amount of resources and monsters depend
+                        on the landscape.
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <img
+                      alt="gameplay2"
+                      src="../../assets/landing-page/gameplay2.png"
+                      style="max-height: 456px; margin: auto; padding: 20px"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="section">
-          <div class="section-four">
+          <div class="section-three">
             <div class="grid grid-cols-1 justify-between">
-              <div class="row">
-                <div class="col-6">
+              <div class="container text-uppercase">
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/equipment.png"
+                      style="max-height: 456px; margin: auto; padding: 20px"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <div style="padding: 20%">
+                      <span
+                        class="
+                          imposter
+                          xs:text-sm
+                          md:text-sm
+                          lg:text-lg
+                          xl:text-xl
+                          2xl:text-xl
+                        "
+                      >
+                        We convince players to use materials from gathering and
+                        PVE systems to craft NFTs tradable tools or equipment
+                        that will make players stronger in competitive zone.
+                      </span>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-6">
-                                    <img
-                    alt="nft"
-                    src="../../assets/landing-page/nfts.png"
-                    style="max-height: 969px; margin-left: auto"
-                  />
+                <div class="row">
+                  <div class="col-6">
+                    <div style="padding: 20%">
+                      <span
+                        class="
+                          imposter
+                          xs:text-sm
+                          md:text-sm
+                          lg:text-lg
+                          xl:text-xl
+                          2xl:text-xl
+                        "
+                      >
+                        In peta land other player can be friendly or enemies. So
+                        you need to prepare yourself.
+                      </span>
+                      <span
+                        class="
+                          imposter
+                          xs:text-sm
+                          md:text-sm
+                          lg:text-lg
+                          xl:text-xl
+                          2xl:text-xl
+                        "
+                      >
+                        The Red zone can PVP but items not drop when you died.
+                        The Black zone items will drop when you died.
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <img
+                      alt="gameplay2"
+                      src="../../assets/landing-page/pvp.png"
+                      style="max-height: 456px; margin: auto; padding: 20px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" style="position: relative">
+          <div class="section-four"></div>
+          <div class="content">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="container text-uppercase">
+                <div class="row">
+                  <div class="col-6">
+                    <div style="padding: 25%">
+                      <span
+                        class="
+                          imposter
+                          xs:text-md
+                          md:text-lg
+                          lg:text-xl
+                          xl:text-xl
+                          2xl:text-xl
+                          text-white
+                        "
+                        style="line-height: 40px"
+                      >
+                        Equipments in Petaland are NFTs therefore each of them
+                        are unique. After an equipment has been crafted, primary
+                        and secondary status of it will be randomized but the
+                        skill will be generated, depending on name of equipment.
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <img
+                      alt="nft"
+                      src="../../assets/landing-page/nfts.png"
+                      style="max-height: 969px; margin-left: auto; opacity: 1"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -452,13 +700,17 @@ footer {
 }
 
 .section-two {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-image: url("../../assets/landing-page/bg2.png");
-  background-color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  /* position: absolute; */
-  opacity: 0.4;
+  opacity: 0.3;
   height: 100%;
 }
 
@@ -469,14 +721,23 @@ footer {
 }
 
 .section-four {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-image: url("../../assets/landing-page/bg3.png");
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  /* position: absolute; */
-  opacity: 1;
+  opacity: 0.3;
   height: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
 }
 
 .section-five {

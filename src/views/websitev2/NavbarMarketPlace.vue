@@ -155,17 +155,16 @@
                 <a
                   href="#"
                   v-if="!walletAccount"
-                  @click="connectWallet"
-                  class="quantico text-uppercase"
-                  style="color: #c6fc0e; z-index: 1; font-size: 14px"
+                  class="imposter text-uppercase"
+                  style="color: #fff; z-index: 1; font-size: 14px"
                 >
                   Coming Soon
                 </a>
                 <a
                   v-if="walletAccount"
-                  class="quantico text-uppercase"
+                  class="imposter text-uppercase"
                   href="#"
-                  style="color: #c6fc0e; z-index: 1; font-size: 16px"
+                  style="color: #fff; z-index: 1; font-size: 14px"
                 >
                   <!-- {{ shortAddress }} -->
                   Coming Soon

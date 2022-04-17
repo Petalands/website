@@ -24,14 +24,14 @@
 }
 @font-face {
   font-family: "Imposter";
-  src: url("../fonts/Imposter.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Imposter.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/Imposter.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/Imposter.woff")
+  src: url("../fonts/TheImpostor.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/TheImpostor.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/TheImpostor.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/TheImpostor.woff")
       format("woff"),
-    /* Pretty Modern Browsers */ url("../fonts/Imposter.ttf")
+    /* Pretty Modern Browsers */ url("../fonts/TheImpostor.ttf")
       format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/Imposter.svg#svgFontName")
+    /* Safari, Android, iOS */ url("../fonts/TheImpostor.svg#svgFontName")
       format("svg"); /* Legacy iOS */
 }
 
@@ -9679,6 +9679,9 @@ select {
   border-radius: 6px;
   border: 1px solid #ffffff;
   border-radius: 0;
+}
+.imposter {
+  font-family: "Imposter" !important;
 }
 .bg--primary button.btn.btn--primary {
   color: #000;

@@ -675,11 +675,11 @@
             <div class="row mt-5">
               <div class="col-4"></div>
               <div class="col-4 text-center">
-                <i class="pi pi-discord mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-telegram mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-twitter mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-youtube mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-facebook mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-discord mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-telegram mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-twitter mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-youtube mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-facebook mr-2" style="font-size: 3rem; color: #fff;"></i>
               </div>
               <div class="col-4"></div>
             </div>
@@ -714,11 +714,11 @@
             </div>
             <div class="row mt-5">
               <div class="col-12 text-center">
-                <i class="pi pi-discord mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-telegram mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-twitter mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-youtube mr-2" style="font-size: 3rem"></i>
-                <i class="pi pi-facebook mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-discord mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-telegram mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-twitter mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-youtube mr-2" style="font-size: 3rem; color: #fff;"></i>
+                <i class="pi pi-facebook mr-2" style="font-size: 3rem; color: #fff;"></i>
               </div>
             </div>
           </div>

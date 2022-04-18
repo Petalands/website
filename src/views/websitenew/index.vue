@@ -4,17 +4,46 @@
       <full-page :options="options" id="fullpage" ref="fullpage">
         <div class="section">
           <div class="section-one">
-            <div class="grid grid-cols-1 justify-between">
+            <div class="grid grid-cols-1 justify-between text-center">
               <img
                 class="section-img desktop"
                 alt="logo"
-                src="../../assets/petaland.png"
+                src="../../assets/landing-page/petaland.png"
               />
               <img
                 class="section-img-mb mobile"
                 alt="logo"
-                src="../../assets/petaland.png"
+                src="../../assets/landing-page/petaland.png"
               />
+              <span
+                class="
+                  imposter
+                  xs:text-sm
+                  md:text-sm
+                  lg:text-lg
+                  xl:text-3xl
+                  2xl:text-3xl
+                  text-white
+                  desktop
+                "
+                style="margin-top: -150px"
+              >
+                PLAY CRAFT EARN
+              </span>
+              <span
+                class="
+                  imposter
+                  xs:text-sm
+                  md:text-sm
+                  lg:text-lg
+                  xl:text-3xl
+                  2xl:text-3xl
+                  text-white
+                  mobile
+                "
+              >
+                PLAY CRAFT EARN
+              </span>
             </div>
           </div>
           <!-- <kinesis-container event="move">
@@ -27,7 +56,7 @@
         </div>
         <div class="section" style="position: relative">
           <div class="section-two"></div>
-          <div class="content">
+          <div class="content desktop">
             <div class="grid grid-cols-1 justify-between">
               <div class="container text-uppercase">
                 <div class="row" style="margin-top: 5%">
@@ -78,6 +107,7 @@
                         xl:text-2xl
                         2xl:text-2xl
                         text-white
+                        desc-line
                       "
                     >
                       To play a real game and find a new community for cultural
@@ -118,6 +148,7 @@
                         xl:text-2xl
                         2xl:text-2xl
                         text-white
+                        desc-line
                       "
                     >
                       The use of in-game materials to create exclusive items
@@ -158,6 +189,152 @@
                         xl:text-2xl
                         2xl:text-2xl
                         text-white
+                        desc-line
+                      "
+                    >
+                      Users will be able to earn by selling crafted items,
+                      farming, trading and etc.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content mobile">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="container text-uppercase">
+                <div class="row" style="margin-top: 15%">
+                  <h1
+                    class="
+                      imposter
+                      xs:text-sm
+                      md:text-sm
+                      lg:text-lg
+                      xl:text-3xl
+                      2xl:text-3xl
+                      text-white
+                    "
+                  >
+                    game concept
+                  </h1>
+                </div>
+                <div class="row" style="margin-top: 10%">
+                  <div class="col-12">
+                    <h1
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-3xl
+                        2xl:text-3xl
+                        text-white
+                      "
+                    >
+                      PLAY
+                    </h1>
+                  </div>
+                  <div class="col-12">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/play.png"
+                      style="max-height: 50px; margin: auto"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <span
+                      class="
+                        imposter
+                        xs:text-xs
+                        md:text-xs
+                        lg:text-lg
+                        xl:text-2xl
+                        2xl:text-2xl
+                        text-white
+                        desc-line
+                      "
+                    >
+                      To play a real game and find a new community for cultural
+                      exchange in the metaverse.
+                    </span>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-12">
+                    <h1
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-3xl
+                        2xl:text-3xl
+                        text-white
+                      "
+                    >
+                      craft
+                    </h1>
+                  </div>
+                  <div class="col-12">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/craft.png"
+                      style="max-height: 50px; margin: auto"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <span
+                      class="
+                        imposter
+                        xs:text-xs
+                        md:text-xs
+                        lg:text-lg
+                        xl:text-2xl
+                        2xl:text-2xl
+                        text-white
+                        desc-line
+                      "
+                    >
+                      The use of in-game materials to create exclusive items
+                      that need users know-how & creativity.
+                    </span>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-12">
+                    <h1
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-3xl
+                        2xl:text-3xl
+                        text-white
+                      "
+                    >
+                      EARN
+                    </h1>
+                  </div>
+                  <div class="col-12">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/earn.png"
+                      style="max-height: 50px; margin: auto"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <span
+                      class="
+                        imposter
+                        xs:text-xs
+                        md:text-xs
+                        lg:text-lg
+                        xl:text-2xl
+                        2xl:text-2xl
+                        text-white
+                        desc-line
                       "
                     >
                       Users will be able to earn by selling crafted items,
@@ -169,8 +346,9 @@
             </div>
           </div>
         </div>
-        <div class="section">
-          <div class="section-three">
+        <div class="section" style="position: relative">
+          <div class="section-six"></div>
+          <div class="content desktop">
             <div class="grid grid-cols-1 justify-between">
               <div class="container text-uppercase">
                 <div class="row">
@@ -191,6 +369,8 @@
                           lg:text-lg
                           xl:text-xl
                           2xl:text-xl
+                          text-white
+                          desc-line
                         "
                       >
                         Use your NFTs Tools to gather the resources such as
@@ -211,6 +391,8 @@
                           lg:text-lg
                           xl:text-xl
                           2xl:text-xl
+                          text-white
+                          desc-line
                         "
                       >
                         In Petaland, there are millions of resources for
@@ -231,9 +413,46 @@
               </div>
             </div>
           </div>
+
+          <div class="content mobile">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="container text-uppercase">
+                <div class="row">
+                  <div class="col-12">
+                    <img
+                      alt="gameplay1"
+                      src="../../assets/landing-page/gameplay1.png"
+                      style="max-height: 456px; margin: auto; padding: 20px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <div style="padding: 10%">
+                      <span
+                        class="
+                          imposter
+                          xs:text-sm
+                          md:text-sm
+                          lg:text-lg
+                          xl:text-xl
+                          2xl:text-xl
+                          text-white
+                          desc-line
+                        "
+                      >
+                        Use your NFTs Tools to gather the resources such as
+                        stones, woods, fibers and ores for crafting other tools
+                        and equipments.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="section">
-          <div class="section-three">
+        <div class="section" style="position: relative">
+          <div class="section-seven"></div>
+          <div class="content desktop">
             <div class="grid grid-cols-1 justify-between">
               <div class="container text-uppercase">
                 <div class="row">
@@ -254,6 +473,8 @@
                           lg:text-lg
                           xl:text-xl
                           2xl:text-xl
+                          text-white
+                          desc-line
                         "
                       >
                         We convince players to use materials from gathering and
@@ -274,6 +495,8 @@
                           lg:text-lg
                           xl:text-xl
                           2xl:text-xl
+                          text-white
+                          desc-line
                         "
                       >
                         In peta land other player can be friendly or enemies. So
@@ -287,6 +510,8 @@
                           lg:text-lg
                           xl:text-xl
                           2xl:text-xl
+                          text-white
+                          desc-line
                         "
                       >
                         The Red zone can PVP but items not drop when you died.
@@ -305,10 +530,46 @@
               </div>
             </div>
           </div>
+
+          <div class="content mobile">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="container text-uppercase">
+                <div class="row">
+                  <div class="col-12">
+                    <img
+                      alt="gameplay2"
+                      src="../../assets/landing-page/pvp.png"
+                      style="max-height: 456px; margin: auto; padding: 20px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <span
+                      class="
+                        imposter
+                        xs:text-sm
+                        md:text-sm
+                        lg:text-lg
+                        xl:text-xl
+                        2xl:text-xl
+                        text-white
+                        desc-line
+                      "
+                    >
+                      We convince players to use materials from gathering and
+                      PVE systems to craft NFTs tradable tools or equipment that
+                      will make players stronger in competitive zone. In peta
+                      land other player can be friendly or enemies. So you need
+                      to prepare yourself.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="section" style="position: relative">
           <div class="section-four"></div>
-          <div class="content">
+          <div class="content desktop">
             <div class="grid grid-cols-1 justify-between">
               <div class="container text-uppercase">
                 <div class="row">
@@ -323,8 +584,8 @@
                           xl:text-xl
                           2xl:text-xl
                           text-white
+                          desc-line
                         "
-                        style="line-height: 40px"
                       >
                         Equipments in Petaland are NFTs therefore each of them
                         are unique. After an equipment has been crafted, primary
@@ -344,9 +605,123 @@
               </div>
             </div>
           </div>
+          <div class="content mobile">
+            <div class="grid grid-cols-1 justify-between">
+              <div class="container text-uppercase">
+                <div class="row">
+                  <div class="col-12">
+                    <img
+                      alt="nft"
+                      src="../../assets/landing-page/nfts.png"
+                      style="max-height: 969px; margin-left: auto; opacity: 1"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <span
+                      class="
+                        imposter
+                        xs:text-md
+                        md:text-lg
+                        lg:text-xl
+                        xl:text-xl
+                        2xl:text-xl
+                        text-white
+                        desc-line
+                      "
+                    >
+                      Equipments in Petaland are NFTs therefore each of them are
+                      unique. After an equipment has been crafted, primary and
+                      secondary status of it will be randomized but the skill
+                      will be generated, depending on name of equipment.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="section">
+        <div class="section" style="position: relative">
           <div class="section-five"></div>
+          <div class="content desktop">
+            <div class="row">
+              <div class="col-12">
+                <img
+                  style="width: 500px; margin: auto"
+                  alt="logo"
+                  src="../../assets/landing-page/Treasure.png"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4 text-center">
+                <span
+                  class="
+                    imposter
+                    xs:text-md
+                    md:text-lg
+                    lg:text-xl
+                    xl:text-xl
+                    2xl:text-xl
+                    text-white
+                    desc-line
+                  "
+                >
+                  Follow our community AIRDROP is COMING
+                </span>
+              </div>
+              <div class="col-4"></div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-4"></div>
+              <div class="col-4 text-center">
+                <i class="pi pi-discord mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-telegram mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-twitter mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-youtube mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-facebook mr-2" style="font-size: 3rem"></i>
+              </div>
+              <div class="col-4"></div>
+            </div>
+          </div>
+          <div class="content mobile">
+            <div class="row">
+              <div class="col-12">
+                <img
+                  style="width: 500px; margin: auto"
+                  alt="logo"
+                  src="../../assets/landing-page/Treasure.png"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <span
+                  class="
+                    imposter
+                    xs:text-md
+                    md:text-lg
+                    lg:text-xl
+                    xl:text-xl
+                    2xl:text-xl
+                    text-white
+                    desc-line
+                  "
+                >
+                  Follow our community AIRDROP is COMING
+                </span>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-12 text-center">
+                <i class="pi pi-discord mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-telegram mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-twitter mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-youtube mr-2" style="font-size: 3rem"></i>
+                <i class="pi pi-facebook mr-2" style="font-size: 3rem"></i>
+              </div>
+            </div>
+          </div>
         </div>
       </full-page>
     </div>
@@ -387,17 +762,17 @@ export default {
     }
   },
   async mounted() {
-    window.web3 = new Web3(window.ethereum);
-    if (typeof window.ethereum == "undefined") {
-      window.web3.setProvider(
-        new Web3.providers.HttpProvider(process.env.VUE_APP_RPC_URL)
-      );
-    }
-    this.connectWallet().then(() => {
-      // this.loadContract();
-      this.loadGreetingWord();
-      this.loadAccountBalance();
-    });
+    // window.web3 = new Web3(window.ethereum);
+    // if (typeof window.ethereum == "undefined") {
+    //   window.web3.setProvider(
+    //     new Web3.providers.HttpProvider(process.env.VUE_APP_RPC_URL)
+    //   );
+    // }
+    // this.connectWallet().then(() => {
+    //   // this.loadContract();
+    //   this.loadGreetingWord();
+    //   this.loadAccountBalance();
+    // });
   },
   methods: {
     async connectWallet() {
@@ -735,12 +1110,47 @@ footer {
   height: 100%;
 }
 
+.section-six {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../assets/landing-page/bg5.png");
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 0.3;
+  height: 100%;
+}
+
+.section-seven {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../assets/landing-page/bg6.jpg");
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 0.3;
+  height: 100%;
+}
+
 .content {
   position: relative;
   z-index: 1;
 }
 
 .section-five {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-image: url("../../assets/landing-page/bg4.png");
   background-color: #000;
   background-repeat: no-repeat;
@@ -749,6 +1159,9 @@ footer {
   /* position: absolute; */
   opacity: 0.4;
   height: 100%;
+}
+.desc-line {
+  line-height: 30px;
 }
 
 .home-nft {
@@ -761,12 +1174,14 @@ footer {
 .section-img {
   max-height: 968px;
   margin: auto;
+  height: 50%;
 }
 
 .section-img-mb {
   max-height: 968px;
   margin: auto;
-  margin-top: 50%;
+  width: 80%;
+  margin-top: 250px;
 }
 
 .p-galleria-thumbnail-items-container {

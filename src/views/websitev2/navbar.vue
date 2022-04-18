@@ -827,7 +827,7 @@ import modalRefer from "@/components/Modal/ModalReferalLink";
 import modalForgotPassword from "@/components/Modal/ModalForgotPassword";
 import modalResetPassword from "@/components/Modal/ModalResetPassword";
 import axios from "axios";
-import Web3 from "web3";
+// import Web3 from "web3";
 export default {
   components: {
     Sidebar,
@@ -884,35 +884,35 @@ export default {
   },
   // name: "Navbar",
   async mounted() {
-    var that = this;
-    window.web3 = new Web3(window.ethereum);
-    window.ethereum.on("accountsChanged", function () {
-      that.connectWallet();
-      that.walletAccount = window.ethereum.selectedAddress;
-      that.$emit("connected", window.ethereum.selectedAddress);
-    });
+    // var that = this;
+    // window.web3 = new Web3(window.ethereum);
+    // window.ethereum.on("accountsChanged", function () {
+    //   that.connectWallet();
+    //   that.walletAccount = window.ethereum.selectedAddress;
+    //   that.$emit("connected", window.ethereum.selectedAddress);
+    // });
 
-    window.ethereum.on("chainChanged", () => {
-      that.connectWallet();
-      that.walletAccount = window.ethereum.selectedAddress;
-      that.$emit("connected", window.ethereum.selectedAddress);
-    });
+    // window.ethereum.on("chainChanged", () => {
+    //   that.connectWallet();
+    //   that.walletAccount = window.ethereum.selectedAddress;
+    //   that.$emit("connected", window.ethereum.selectedAddress);
+    // });
 
-    window.ethereum.on("disconnect", () => {
-      that.walletAccount = "";
-      that.$emit("disconnected", window.ethereum.selectedAddress);
-      // this.checkSpecialPass();
-    });
+    // window.ethereum.on("disconnect", () => {
+    //   that.walletAccount = "";
+    //   that.$emit("disconnected", window.ethereum.selectedAddress);
+    //   // this.checkSpecialPass();
+    // });
 
-    window.ethereum.on("connected", () => {
-      that.$emit("connected", window.ethereum.selectedAddress);
-      // this.checkSpecialPass();
-    });
+    // window.ethereum.on("connected", () => {
+    //   that.$emit("connected", window.ethereum.selectedAddress);
+    //   // this.checkSpecialPass();
+    // });
 
-    if (window.ethereum.selectedAddress != "") {
-      that.connectWallet();
-      // that.checkSpecialPass();
-    }
+    // if (window.ethereum.selectedAddress != "") {
+    //   that.connectWallet();
+    //   // that.checkSpecialPass();
+    // }
   },
   methods: {
     async checkConnectWallet() {

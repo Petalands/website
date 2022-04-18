@@ -1365,19 +1365,18 @@ export default {
   data() {
     return {
       videoId: "0shA0Ece9zE",
-      address: "0x327a3e880bf2674ee40b6f872be2050ed406b021",
     };
   },
   created() {
-    const ref = this.$route.query.ref;
-    if (ref != undefined) {
-      const encryptedText = decodeURIComponent(ref);
-      const decryptedText = this.CryptoJS.AES.decrypt(
-        encryptedText,
-        "mzHfUfUyyuFK9kJwxr9Qv"
-      ).toString(this.CryptoJS.enc.Utf8);
-      localStorage.setItem("ref", decryptedText);
-    }
+    // const ref = this.$route.query.ref;
+    // if (ref != undefined) {
+    //   const encryptedText = decodeURIComponent(ref);
+    //   const decryptedText = this.CryptoJS.AES.decrypt(
+    //     encryptedText,
+    //     "mzHfUfUyyuFK9kJwxr9Qv"
+    //   ).toString(this.CryptoJS.enc.Utf8);
+    //   localStorage.setItem("ref", decryptedText);
+    // }
   },
 };
 </script>
